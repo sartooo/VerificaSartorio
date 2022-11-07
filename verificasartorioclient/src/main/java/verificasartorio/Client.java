@@ -34,5 +34,7 @@ public class Client
 
         out.writeBytes(messaggio+"\n");
 
+       System.out.println(in.readLine());
+
     }
 }
